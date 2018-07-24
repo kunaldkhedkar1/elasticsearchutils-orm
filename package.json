@@ -1,0 +1,45 @@
+{
+  "name": "elasticsearchutils-orm",
+  "version": "1.0.0",
+  "description": "search queries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --check-leaks ./tests/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunaldkhedkar1/elasticsearchutils-orm.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "orm",
+    "database",
+    "model",
+    "query",
+    "search"
+  ],
+  "author": "Kunal Khedkar <kunaldkhedkar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "~2.9.34",
+    "dot-object": "^1.1.0",
+    "elasticsearch": "~8.0.1",
+    "kareem": "^1.0.1",
+    "lodash": "~3.10.1",
+    "pluralize": "~1.1.6",
+    "winston": "~1.0.1"
+  },
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "mocha": "^2.3.0",
+    "should": "^7.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/kunaldkhedkar1/elasticsearchutils-orm/issues"
+  },
+  "homepage": "https://github.com/kunaldkhedkar1/elasticsearchutils-orm#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  }
+}
